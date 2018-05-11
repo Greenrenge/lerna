@@ -1,1 +1,1 @@
-module.exports = 'this is version 1'
+module.exports = 'this is version 2'
