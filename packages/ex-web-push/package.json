@@ -1,6 +1,6 @@
 {
   "name": "@greenrenge/ex-web-push",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "",
   "main": "index.js",
   "scripts": {
@@ -9,7 +9,7 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "@greenrenge/ex-push-messages": "^1.0.1",
+    "@greenrenge/ex-push-messages": "^1.0.2",
     "body-parser": "^1.18.2",
     "express": "^4.16.3",
     "express-static": "^1.2.5",
