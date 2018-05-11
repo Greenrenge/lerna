@@ -39,6 +39,7 @@ async function run () {
   console.log('Registered push')
 
   console.log('Sending push')
+  // send subscription obj to server for further called by server
   await fetch('/subscribe', {
     method: 'POST',
     body: JSON.stringify(subscription),

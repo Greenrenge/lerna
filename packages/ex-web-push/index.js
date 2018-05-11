@@ -11,6 +11,7 @@ app.use(require('body-parser').json())
 app.post('/subscribe', async (req, res) => {
   const subscription = req.body
   res.status(201).json({})
+  // after response to client, then keep subscription for further push msg
   const payload = JSON.stringify({ title: 'test'})
   console.log(subscription)
   try {
